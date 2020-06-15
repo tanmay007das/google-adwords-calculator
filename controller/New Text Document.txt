@@ -1,0 +1,10 @@
+<?php
+    include('../model/formclass.php');
+    $rev   = $_POST['rev'];
+    $cost = $_POST['cost'];
+
+    $roical = new formdata();
+
+    $roical->roicalculation($rev,$cost);
+?>
+
